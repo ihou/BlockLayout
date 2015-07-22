@@ -13,14 +13,14 @@
         android:layout_height="360dp"
         android:background="#33ff0000"
         app:colCount="3"
-        app:rowCount="3"
+        app:rowCount="4"
         app:gapSize="3dp">
 
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@drawable/li"
-            app:block="0,0,1,1"/>
+            app:block="0,0,1,2"/>
 
         <ImageView
             android:layout_width="wrap_content"
@@ -33,25 +33,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@drawable/li"
-            app:block="0,1,1,1"/>
-
+            app:block="0,2,2,2"/>
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@drawable/li"
-            app:block="0,2,1,1"/>
+            app:block="2,2,1,2"/>
 
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@drawable/li"
-            app:block="1,2,1,1"/>
 
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@drawable/li"
-            app:block="2,2,1,1"/>
     </me.semi.blocklayout.BlockLayout>
 
 </RelativeLayout>
