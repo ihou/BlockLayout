@@ -72,7 +72,7 @@ Usage
     
 ```
 
-Arrtibute
+Attribute
 ----
 
     There are 4 custom arrtibutes.
